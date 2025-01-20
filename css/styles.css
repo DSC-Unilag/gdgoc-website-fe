@@ -1202,13 +1202,14 @@ h3 {
     gap: 0.6em;
     background-color: #000;
     border-radius: 35px;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
 
   .view-events button {
     color: #fff;
     background-color: transparent;
     border: none;
+    font-size: 1rem;
   }
 
   .go-to-icon {
@@ -1385,7 +1386,8 @@ h3 {
 }
 
 .subscribe-section button {
-  background-color: #000;
+  background-color: #0a2212;
+  border: none;
   flex-basis: 30%;
 }
 
