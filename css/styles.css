@@ -1355,6 +1355,63 @@ h3 {
 
 /* end of carousel parallax effect  */
 
+/* beginning of events section styling */
+
+#eventsTabContent .tagging {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+#eventsTabContent .tagging.red {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+
+#eventsTabContent .tagging.green {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+#eventsTabContent .tagging.blue {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
+
+#eventsTabContent .tagging.gold {
+  background-color: #ffecb3;
+  color: #ff9800;
+}
+
+#eventsTabContent .register {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  text-align: center;
+  color: #fff;
+}
+
+#eventsTabContent .register.red {
+  background-color: #b71c1c;
+}
+
+#eventsTabContent .register.green {
+  background-color: #1b5e20;
+}
+
+#eventsTabContent .register.blue {
+  background-color: #0d47a1;
+}
+
+#eventsTabContent .register.gold {
+  background-color: #ff9800;
+}
+
+/* end of events section styling */
+
 /* beginning of subscribe section styling */
 
 .subscribe-section {
