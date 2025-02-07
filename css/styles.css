@@ -190,13 +190,18 @@ nav ul li a:hover {
   .hero h1 {
     font-size: 40px;
   }
+
+  .hero h1 br {
+    display: none;
+  }
 }
 
 .hero h1 span {
+  display: inline-block;
+  padding: 20px;
   color: #fbbc04;
-  padding: 15px 10px 0px 0px;
-  border: 3px solid #fbbc04;
-  border-radius: 50%;
+  background: url("/images/assets/hero/frame.svg") no-repeat center center;
+  background-size: contain;
 }
 
 .hero-cta {
@@ -295,10 +300,22 @@ nav ul li a:hover {
   margin-bottom: 15px;
 }
 
+@media (max-width: 760px) {
+  .about .content p.title {
+    font-size: 20px;
+  }
+}
+
 .about .content p.sub-title {
   font-size: 18px;
   font-weight: 400;
   color: #1e1e1ecc;
+}
+
+@media (max-width: 760px) {
+  .about .content p.sub-title {
+    font-size: 14px;
+  }
 }
 
 .about .cta {
@@ -316,6 +333,15 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+@media (max-width: 760px) {
+  .about .cta {
+    padding: 5px 10px;
+  }
+  .about .cta .content {
+    font-size: 14px;
+  }
 }
 
 /* join section start */
@@ -355,7 +381,6 @@ nav ul li a:hover {
   height: 700px;
   width: 300px;
   border-radius: 20px;
-
   transform: rotate(90deg);
 }
 
@@ -363,15 +388,28 @@ nav ul li a:hover {
   margin-top: -24rem;
 }
 
+#why-join .section-header .title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #why-join .section-header .title {
+    font-size: 1.1rem;
+  }
+}
+
 #why-join .title {
   text-align: left;
-  margin-bottom: 10px;
-  font-size: 2.5rem;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 #why-join .content {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -661,10 +699,11 @@ section header {
   gap: 0.6em;
   background-color: #000;
   border-radius: 35px;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   width: 20%;
   min-width: 300px;
   margin: auto;
+  font-size: 1rem;
 }
 
 .view-team button {
@@ -919,7 +958,7 @@ h3 {
 }
 
 .join-us__list-text {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .stroke-double {
@@ -1163,13 +1202,14 @@ h3 {
     gap: 0.6em;
     background-color: #000;
     border-radius: 35px;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
 
   .view-events button {
     color: #fff;
     background-color: transparent;
     border: none;
+    font-size: 1rem;
   }
 
   .go-to-icon {
@@ -1315,6 +1355,63 @@ h3 {
 
 /* end of carousel parallax effect  */
 
+/* beginning of events section styling */
+
+#eventsTabContent .tagging {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+#eventsTabContent .tagging.red {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+
+#eventsTabContent .tagging.green {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+#eventsTabContent .tagging.blue {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
+
+#eventsTabContent .tagging.gold {
+  background-color: #ffecb3;
+  color: #ff9800;
+}
+
+#eventsTabContent .register {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  text-align: center;
+  color: #fff;
+}
+
+#eventsTabContent .register.red {
+  background-color: #b71c1c;
+}
+
+#eventsTabContent .register.green {
+  background-color: #1b5e20;
+}
+
+#eventsTabContent .register.blue {
+  background-color: #0d47a1;
+}
+
+#eventsTabContent .register.gold {
+  background-color: #ff9800;
+}
+
+/* end of events section styling */
+
 /* beginning of subscribe section styling */
 
 .subscribe-section {
@@ -1346,7 +1443,8 @@ h3 {
 }
 
 .subscribe-section button {
-  background-color: #000;
+  background-color: #0a2212;
+  border: none;
   flex-basis: 30%;
 }
 
