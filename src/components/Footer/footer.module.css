@@ -1,0 +1,29 @@
+.foot_logo > div span:nth-child(1) {
+  font-size: clamp(12px, calc(12px + 3 * ((100vw - 375px) / 1065)), 15px);
+}
+.foot_logo > div span:nth-child(2) {
+  font-size: clamp(10px, calc(10px + 2 * ((100vw - 375px) / 1065)), 12px);
+}
+
+.foot_nav dt {
+  font-size: clamp(12px, calc(12px + 9.12 * ((100vw - 375px) / 1065)), 21.12px);
+}
+
+.foot_nav dd {
+  font-size: clamp(11.5px, calc(11.5px + 6.53 * ((100vw - 375px) / 1065)), 18.03px);
+}
+
+.socials > li {
+  width: clamp(20px, calc(20px + 9 * ((100vw - 375px) / 1065)), 29px);
+  height: clamp(20px, calc(20px + 9 * ((100vw - 375px) / 1065)), 29px);
+}
+.socials > li > a {
+  @apply inline-block w-full h-full;
+}
+.socials > li > a > svg {
+  @apply w-full;
+}
+
+.cp_ff_size {
+  font-size: clamp(12px, calc(12px + 8 * ((100vw - 375px) / 1065)), 20px);
+}
