@@ -1,0 +1,16 @@
+.ringAround {
+  position: relative;
+  display: inline-block;
+}
+
+.ringAround::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: url('../../assets/hero/frame.svg') no-repeat center;
+  background-size: contain;
+  z-index: -1;
+}

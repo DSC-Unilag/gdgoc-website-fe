@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src:
-    url('/fonts/GoogleSans/GoogleSans-Regular.woff2') format('woff2'),
+  src: url('/fonts/GoogleSans/GoogleSans-Regular.woff2') format('woff2'),
     url('/fonts/GoogleSans/GoogleSans-Regular.woff') format('woff');
 }
 @font-face {
@@ -12,8 +11,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src:
-    url('/fonts/GoogleSans/GoogleSans-Medium.woff2') format('woff2'),
+  src: url('/fonts/GoogleSans/GoogleSans-Medium.woff2') format('woff2'),
     url('/fonts/GoogleSans/GoogleSans-Medium.woff') format('woff');
 }
 @font-face {
@@ -21,8 +19,7 @@
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-  src:
-    url('/fonts/GoogleSans/GoogleSans-Bold.woff2') format('woff2'),
+  src: url('/fonts/GoogleSans/GoogleSans-Bold.woff2') format('woff2'),
     url('/fonts/GoogleSans/GoogleSans-Bold.woff') format('woff');
 }
 @import 'tailwindcss';
@@ -42,4 +39,8 @@
 
 html {
   @apply font-google-sans font-normal leading-none;
+}
+
+button {
+  cursor: pointer;
 }
