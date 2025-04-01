@@ -1,13 +1,13 @@
-import WhoWeAreImage from '../../assets/hero/who-we-are.png';
+import WhoWeAreImage from '../../assets/hero/who-we-are.jpg';
 
 function WhoWeAre() {
   return (
-    <div className="who-we-are flex flex-col md:flex-row items-center justify-between py-12 px-6 md:px-12">
+    <div className="who-we-are flex flex-col md:flex-row items-center justify-between px-[5.3333%] md:px-[6.9444%] py-12">
       <div className="w-full md:w-1/2 flex justify-center">
         <img
           src={WhoWeAreImage}
           alt="Who We Are"
-          className="w-full max-w-sm md:max-w-md rounded-lg shadow-lg"
+          className="aspect-[16/9] border-4 border-[#0f9d58] drop-shadow-[10px_10px_0px_#0f9d58] rounded-[0px_20px]"
         />
       </div>
 

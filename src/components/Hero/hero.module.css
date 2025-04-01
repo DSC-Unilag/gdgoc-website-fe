@@ -14,3 +14,54 @@
   background-size: contain;
   z-index: -1;
 }
+
+.heroImage {
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-width: 968px;
+  border-radius: 30px;
+  border: 4px solid #fbbc04;
+  filter: drop-shadow(10px 10px 0px #fbbc04);
+}
+
+@media (min-width: 636px) and (max-width: 767px) {
+  .floatingIcon:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 90px;
+  }
+  .floatingIcon:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    right: 50px;
+  }
+  .floatingIcon:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    top: 75px;
+    left: 50px;
+  }
+}
+
+@media (min-width: 466px) and (max-width: 635px) {
+  .floatingIcon:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 90px;
+  }
+  .floatingIcon:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    right: 50px;
+  }
+  .floatingIcon:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    top: 175px;
+    left: 50px;
+  }
+}
