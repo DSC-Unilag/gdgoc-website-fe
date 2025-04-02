@@ -121,7 +121,7 @@ function NavBar() {
         </li>
         <li>
           <Link
-            to="/"
+            to="/teams"
             className="transition-[color] ease-in-out duration-300"
             activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
           >

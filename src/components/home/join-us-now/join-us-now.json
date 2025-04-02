@@ -1,0 +1,23 @@
+[
+  {
+    "id": "jun-slide-0",
+    "no": "01",
+    "title": "Unlock Your Potential",
+    "body": "Join a thriving community where you can develop your skills, collaborate on projects, and gain access to exclusive resources.",
+    "extras": "Become part of something bigger and start your journey today!"
+  },
+  {
+    "id": "jun-slide-1",
+    "no": "02",
+    "title": "Make a Difference",
+    "body": "Contribute to real-world projects and use your talents to solve problems.",
+    "extras": "Learn from industry leaders and build a network that will propel your career. Join us now and make a lasting impact!"
+  },
+  {
+    "id": "jun-slide-2",
+    "no": "03",
+    "title": "Be Part of the Future",
+    "body": "Stay ahead of the curve by learning about cutting-edge technologies from Google experts.",
+    "extras": "Gain access to exclusive workshops, hackathons, and events. Don't miss out - join the movement and shape the future with us!"
+  }
+]
