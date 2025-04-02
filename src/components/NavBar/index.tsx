@@ -14,7 +14,7 @@ function NavBar() {
       </div>
 
       <ul
-        className={`fixed md:static w-full md:w-max top-0 md:top-auto left-0 md:left-auto z-10 md:h-auto px-[22.98%] md:p-0 bg-blue-500 md:bg-transparent transition-[height] ease-in-out duration-300 flex flex-col md:flex-row gap-y-6 md:gap-x-[1.67vw] text-base md:text-[0.875rem] lg:text-base text-off-white md:text-black-02 leading-none ${showNavDD ? 'h-dvh' : 'h-0'} md:h-auto`}
+        className={`fixed md:static w-full md:w-max top-0 md:top-auto left-0 md:left-auto z-10 overflow-hidden md:overflow-visible md:h-auto px-[22.98%] md:p-0 bg-blue-500 md:bg-transparent transition-[height] ease-in-out duration-300 flex flex-col md:flex-row gap-y-6 md:gap-x-[1.67vw] text-base md:text-[0.875rem] lg:text-base text-off-white md:text-black-02 leading-none ${showNavDD ? 'h-dvh' : 'h-0'} md:h-auto`}
       >
         <button
           className="absolute top-[22px] left-[23px] w-6 h-6 md:hidden"
@@ -121,7 +121,7 @@ function NavBar() {
         </li>
         <li>
           <Link
-            to="/"
+            to="/teams"
             className="transition-[color] ease-in-out duration-300"
             activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
           >

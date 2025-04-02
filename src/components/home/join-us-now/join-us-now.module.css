@@ -1,0 +1,14 @@
+.jun_title {
+  font-size: clamp(24px, calc(24px + 24 * ((100vw - 375px) / 1065)), 48px);
+}
+
+.jun_points span {
+  font-size: clamp(48px, calc(48px + 16 * ((100vw - 375px) / 1065)), 64px);
+}
+.jun_points h3 {
+  font-size: clamp(18px, calc(18px + 10 * ((100vw - 375px) / 1065)), 28px);
+}
+
+.jun_points p {
+  font-size: clamp(14px, calc(14px + 4 * ((100vw - 375px) / 1065)), 18px);
+}

@@ -1,0 +1,62 @@
+.mot_title {
+  font-size: clamp(24px, calc(24px + 24 * ((100vw - 375px) / 1065)), 48px);
+}
+
+.mot_slide {
+  --blue: #4285f4;
+  --yellow: #fbbc04;
+  --green: #0f9d58;
+  --red: #ea4335;
+  --black: #000000;
+}
+
+/* meet our team slide pfp figure */
+.mot_slide:nth-child(4n) > figure {
+  box-shadow: 9.35px 9.35px 0 var(--blue);
+}
+.mot_slide:nth-child(4n + 1) > figure {
+  box-shadow: 9.35px 9.35px 0 var(--yellow);
+}
+.mot_slide:nth-child(4n + 2) > figure {
+  box-shadow: 9.35px 9.35px 0 var(--green);
+}
+.mot_slide:nth-child(4n + 3) > figure {
+  box-shadow: 9.35px 9.35px 0 var(--red);
+}
+.mot_slide:last-child > figure {
+  box-shadow: 9.35px 9.35px 0 var(--black);
+}
+@media (min-width: 768px) {
+  .mot_slide:nth-child(4n) > figure {
+    box-shadow: 11.22px 11.22px 0 var(--blue);
+  }
+  .mot_slide:nth-child(4n + 1) > figure {
+    box-shadow: 11.22px 11.22px 0 var(--yellow);
+  }
+  .mot_slide:nth-child(4n + 2) > figure {
+    box-shadow: 11.22px 11.22px 0 var(--green);
+  }
+  .mot_slide:nth-child(4n + 3) > figure {
+    box-shadow: 11.22px 11.22px 0 var(--red);
+  }
+  .mot_slide:last-child > figure {
+    box-shadow: 11.22px 11.22px 0 var(--black);
+  }
+}
+
+/* meet our team slide linkedIn link */
+.mot_slide:nth-child(4n) .lead_social {
+  background-color: var(--blue);
+}
+.mot_slide:nth-child(4n + 1) .lead_social {
+  background-color: var(--yellow);
+}
+.mot_slide:nth-child(4n + 2) .lead_social {
+  background-color: var(--green);
+}
+.mot_slide:nth-child(4n + 3) .lead_social {
+  background-color: var(--red);
+}
+.mot_slide:last-child .lead_social {
+  background-color: var(--black);
+}

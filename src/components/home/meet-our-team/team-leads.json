@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mot-slide-0",
+    "pfp": "/team/pfps/olayinka-atobiloye-pfp.webp",
+    "name": "Olayinka Atobiloye",
+    "post": "GDGoC Lead",
+    "linkedIn": "linkedin.com/in/olayinkaatobiloye/"
+  },
+  {
+    "id": "mot-slide-1",
+    "pfp": "/team/pfps/zainab-bello-pfp.webp",
+    "name": "Zainab Bello",
+    "post": "GDGoC Co-lead",
+    "linkedIn": "linkedin.com/in/bellozainabadenike/"
+  },
+  {
+    "id": "mot-slide-2",
+    "pfp": "/team/pfps/marvelous-olubiyi-pfp.webp",
+    "name": "Marvelous Olubiyi",
+    "post": "CMUL Lead",
+    "linkedIn": "https://www.linkedin.com/in/marvelous-olubiyi-a94420202/"
+  },
+  {
+    "id": "mot-slide-3",
+    "pfp": "/team/pfps/david-dada-pfp.webp",
+    "name": "David Dada",
+    "post": "Training Lead",
+    "linkedIn": "https://www.linkedin.com/in/obadafidi"
+  },
+  {
+    "id": "mot-slide-4",
+    "pfp": "/team/pfps/solakunmi-oyedele-pfp.webp",
+    "name": "Solakunmi Oyedele",
+    "post": "Programs Lead",
+    "linkedIn": ""
+  },
+  {
+    "id": "mot-slide-5",
+    "pfp": "/team/pfps/ibraheem-ademoye-pfp.webp",
+    "name": "Ibraheem Ademoye",
+    "post": "Design Lead",
+    "linkedIn": "linkedin.com/in/ibraheem-ademoye/"
+  },
+  {
+    "id": "mot-slide-6",
+    "pfp": "/team/pfps/somtochukwu-uchegbu-pfp.webp",
+    "name": "Somtochukwu Uchegbu",
+    "smName": "Somto Uchegbu",
+    "post": "Competition Lead",
+    "linkedIn": "https://www.linkedin.com/in/somtochukwu-uchegbu-33815619a/"
+  },
+  {
+    "id": "mot-slide-7",
+    "pfp": "/team/pfps/ahmed-arigbabu-pfp.webp",
+    "name": "Ahmed Arigbabu",
+    "post": "Operations Lead",
+    "linkedIn": "https://www.linkedin.com/in/mrarigbabu/"
+  },
+  {
+    "id": "mot-slide-8",
+    "pfp": "/team/pfps/eniola-adetunji-pfp.webp",
+    "name": "Eniola Adetunji",
+    "post": "Media Lead",
+    "linkedIn": "https://www.linkedin.com/in/eniolaadetunji"
+  },
+  {
+    "id": "mot-slide-9",
+    "pfp": "/team/pfps/ochayan-garba-pfp.webp",
+    "name": "Ochayan Garba",
+    "post": "Sponsorship Lead",
+    "linkedIn": "https://www.linkedin.com/in/ochayan-garba-410009193"
+  },
+  {
+    "id": "mot-slide-10",
+    "pfp": "/team/pfps/confidence-adjarho-pfp.webp",
+    "name": "Confidence Adjarho",
+    "post": "Content Lead",
+    "linkedIn": "https://www.linkedin.com/in/confidence-ufuoma-frontenddeveloper"
+  },
+  {
+    "id": "mot-slide-11",
+    "pfp": "/team/pfps/emmanuel-olubiyi-pfp.webp",
+    "name": "Emmanuel Olubiyi",
+    "post": "Development Lead",
+    "linkedIn": "https://www.linkedin.com/in/emmanuel-olubiyi/"
+  }
+]

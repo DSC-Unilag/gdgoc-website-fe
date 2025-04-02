@@ -40,6 +40,13 @@
   --color-off-white: #f0f0f0;
 }
 
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 1px #020e35;
+    color: transparent;
+  }
+}
+
 html {
   @apply font-google-sans font-normal leading-none;
 }

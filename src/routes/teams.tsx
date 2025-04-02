@@ -1,10 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router';
-import HomePage from '../components/home';
 
-export const Route = createFileRoute('/')({
+export const Route = createFileRoute('/teams')({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  return <HomePage />;
+  return <div>Hello "/teams"!</div>;
 }
