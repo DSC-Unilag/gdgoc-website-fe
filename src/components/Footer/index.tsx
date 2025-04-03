@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <footer
-      className={`w-full bg-black-02 pt-10 px-[5.3333%] pb-7 md:pt-[54px] md:px-[6.9444%] sm:pb-[14px] text-off-white`}
+      className={`p_cont_auto w-full bg-black-02 pt-10 pb-7 md:pt-[54px] sm:pb-[14px] text-off-white`}
     >
       <div className="mb-16 sm:mb-[46.44px] flex flex-col lg:flex-row justify-center lg:justify-between lg:items-start">
         <div className="lg:shrink-0 flex justify-start sm:justify-center lg:justify-start">

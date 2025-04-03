@@ -30,7 +30,9 @@
 @theme {
   --font-google-sans: 'Google Sans', sans-serif;
 
+  --breakpoint-h-xsm: 21.875rem;
   --breakpoint-sm: 30rem;
+  --breakpoint-2xl: 90rem;
 
   --color-blue-500: #4285f4;
   --color-green-500: #34a853;
@@ -48,5 +50,21 @@
 }
 
 html {
-  @apply font-google-sans font-normal leading-none;
+  @apply font-google-sans font-normal leading-none box-border;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* default container padding on the x-axis */
+.p_cont_auto {
+  padding-left: 5.3333%;
+  padding-right: 5.3333%;
+}
+@media (min-width: 768px) {
+  .p_cont_auto {
+    padding-left: 6.9444%;
+    padding-right: 6.9444%;
+  }
 }

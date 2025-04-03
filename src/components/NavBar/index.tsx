@@ -8,7 +8,7 @@ function NavBar() {
   const [showProgramsDD, setShowProgramsDD] = useState(false);
 
   return (
-    <nav className="relative pt-10 px-[5.3333%] pb-[7px] md:px-[6.9444%] md:pb-6 flex gap-x-8 md:gap-x-[1.6vw] justify-between items-center border-b border-[#CFC9C9] border-solid overflow-visible">
+    <nav className="p_cont_auto relative pt-10 pb-[7px] md:pb-6 flex gap-x-8 md:gap-x-[1.6vw] justify-between items-center border-b border-[#CFC9C9] border-solid">
       <div className={`max-w-[235px] md:w-[24vw] lg:w-full`}>
         <img src={NavLogo} alt="" className={`w-full`} />
       </div>
@@ -142,7 +142,7 @@ function NavBar() {
       <a
         href="https://forms.gle/du3A8stkQPvFcArd8"
         rel="noreferrer noopener"
-        className="hidden md:inline-block bg-blue-500 py-[13.59px] px-5 lg:px-6 rounded-[20px] text-[0.875rem] lg:text-base text-off-white leading-none whitespace-nowrap"
+        className="hidden md:inline-block bg-blue-500 transition-[opacity] ease-in-out duration-300 hover:opacity-80 py-[13.59px] px-5 lg:px-6 rounded-[20px] text-[0.875rem] lg:text-base text-off-white leading-none whitespace-nowrap"
       >
         Join GDGoC
       </a>
