@@ -12,7 +12,7 @@ function WhoWeAre() {
     >
       <h2 className="block lg:hidden mb-10 font-bold text-center">Who We Are</h2>
       <div className="w-full flex flex-col md:flex-row items-center lg:items-start justify-between md:gap-x-[8.55%]">
-        <div className="max-w-[450px] w-full md:max-w-max md:w-[73.9699vw] h-max pr-1.5 md:pr-0 flex items-start justify-center">
+        <div className="max-w-[450px] w-[86%] md:max-w-max md:w-[73.9699vw] h-max pr-1.5 md:pr-0 flex items-start justify-center">
           <img
             src={WhoWeAreImage}
             alt="Who We Are"

@@ -12,3 +12,9 @@
 .jun_points p {
   font-size: clamp(14px, calc(14px + 4 * ((100vw - 375px) / 1065)), 18px);
 }
+
+@media (max-width: 350px) {
+  .jun_points span {
+    font-size: 36px;
+  }
+}
