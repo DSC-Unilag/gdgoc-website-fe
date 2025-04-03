@@ -1,0 +1,11 @@
+.wju_title {
+  font-size: clamp(20px, calc(20px + 28 * ((100vw - 375px) / 1065)), 48px);
+}
+
+/* carousel styles */
+.wju_container h3 {
+  font-size: clamp(18px, calc(18px + 22 * ((100vw - 375px) / 1065)), 40px);
+}
+.wju_container p {
+  font-size: clamp(16px, calc(16px + 9 * ((100vw - 375px) / 1065)), 25px);
+}

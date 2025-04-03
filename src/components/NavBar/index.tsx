@@ -5,6 +5,7 @@ import NavLogo from '../../assets/nav-logo.png';
 
 function NavBar() {
   const [showNavDD, setShowNavDD] = useState(false);
+  const [showProgramsDD, setShowProgramsDD] = useState(false);
 
   return (
     <nav className="p_cont_auto relative pt-10 pb-[7px] md:pb-6 flex gap-x-8 md:gap-x-[1.6vw] justify-between items-center border-b border-[#CFC9C9] border-solid">
@@ -13,7 +14,7 @@ function NavBar() {
       </div>
 
       <ul
-        className={`fixed md:relative w-full md:w-max top-0 md:top-auto left-0 md:left-auto z-20 overflow-hidden h-dvh md:h-auto py-[74px] px-[22.98%] md:p-0 bg-blue-500 md:bg-transparent transition-[clip-path] duration-300 flex flex-col md:flex-row gap-y-6 md:gap-x-[1.67vw] text-base md:text-[0.875rem] lg:text-base text-off-white md:text-black-02 leading-none md:[clip-path:inset(0_0_0_0)] ${showNavDD ? '[clip-path:inset(0_0_0_0)]' : '[clip-path:inset(0_0_100dvh_0)]'}`}
+        className={`fixed md:static w-full md:w-max top-0 md:top-auto left-0 md:left-auto z-10 overflow-hidden md:overflow-visible md:h-auto px-[22.98%] md:p-0 bg-blue-500 md:bg-transparent transition-[height] ease-in-out duration-300 flex flex-col md:flex-row gap-y-6 md:gap-x-[1.67vw] text-base md:text-[0.875rem] lg:text-base text-off-white md:text-black-02 leading-none ${showNavDD ? 'h-dvh' : 'h-0'} md:h-auto`}
       >
         <button
           className="absolute top-[22px] left-[23px] w-6 h-6 md:hidden"
@@ -36,17 +37,36 @@ function NavBar() {
             />
           </svg>
         </button>
-        <li>
-          <Link to="/">Home</Link>
+        <li className={`mt-[74px] md:m-0`}>
+          <Link
+            to="/"
+            className="transition-[color] ease-in-out duration-300"
+            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link
+            to="/about"
+            className="transition-[color] ease-in-out duration-300"
+            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <dl>
-            <dt className="flex items-center gap-x-2.5 cursor-pointer">
+          <dl className="static md:relative">
+            <dt
+              className="flex items-center gap-x-2.5 cursor-pointer"
+              onClick={() => {
+                setShowProgramsDD(!showProgramsDD);
+              }}
+            >
               <span>Programs</span>
-              <button className="w-3">
+              <button
+                className={`w-3 transition-[rotate] ease-in-out duration-300 ${showProgramsDD ? 'rotate-180' : 'rotate-0'}`}
+              >
                 <svg
                   className="w-full"
                   width="13"
@@ -66,29 +86,61 @@ function NavBar() {
                 </svg>
               </button>
             </dt>
-            <div className="hidden">
+            <div
+              className={`bg-transparent md:bg-white md:shadow-[5px_5px_11px_rgba(0,0,0,0.11)] static md:absolute md:top-[150%] md:left-[50%] md:-translate-x-[50%] z-50 overflow-hidden md:px-[30px] flex flex-col justify-end md:justify-center gap-y-6 transition-[height] duration-300 md:leading-[1%] ${showProgramsDD ? 'h-[121.6px] md:h-[110px]' : 'h-0'}`}
+            >
               <dd>
-                <Link to="/about">Hackathon</Link>
+                <Link
+                  to="/"
+                  className="transition-[color] ease-in-out duration-300"
+                  activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+                >
+                  Hackathon
+                </Link>
               </dd>
               <dd>
-                <Link to="/about">Workshop</Link>
+                <Link
+                  to="/"
+                  className="transition-[color] ease-in-out duration-300"
+                  activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+                >
+                  Workshop
+                </Link>
               </dd>
-              <dd>
-                <Link to="/about">Open Hack Week</Link>
+              <dd className="whitespace-nowrap">
+                <Link
+                  to="/"
+                  className="transition-[color] ease-in-out duration-300"
+                  activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+                >
+                  Open Hack Week
+                </Link>
               </dd>
             </div>
           </dl>
         </li>
         <li>
-          <Link to="/">Teams</Link>
+          <Link
+            to="/teams"
+            className="transition-[color] ease-in-out duration-300"
+            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+          >
+            Teams
+          </Link>
         </li>
         <li>
-          <Link to="/about">FAQs</Link>
+          <Link
+            to="/"
+            className="transition-[color] ease-in-out duration-300"
+            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+          >
+            FAQs
+          </Link>
         </li>
       </ul>
 
       <a
-        href="#"
+        href="https://forms.gle/du3A8stkQPvFcArd8"
         rel="noreferrer noopener"
         className="hidden md:inline-block bg-blue-500 transition-[opacity] ease-in-out duration-300 hover:opacity-80 py-[13.59px] px-5 lg:px-6 rounded-[20px] text-[0.875rem] lg:text-base text-off-white leading-none whitespace-nowrap"
       >
