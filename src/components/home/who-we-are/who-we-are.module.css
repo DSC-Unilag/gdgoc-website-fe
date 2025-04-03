@@ -1,0 +1,7 @@
+.wwa_section h2 {
+  font-size: clamp(24px, calc(24px + 24 * ((100vw - 375px) / 1065)), 48px);
+}
+
+.wwa_section p {
+  font-size: clamp(16px, calc(16px + 4 * ((100vw - 375px) / 1065)), 20px);
+}

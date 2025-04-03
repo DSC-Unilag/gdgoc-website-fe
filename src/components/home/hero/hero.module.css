@@ -1,0 +1,7 @@
+.hero_title {
+  font-size: clamp(32px, calc(32px + 28 * ((100vw - 375px) / 1065)), 60px);
+}
+
+.hero_body {
+  font-size: clamp(14px, calc(14px + 4 * ((100vw - 375px) / 1065)), 18px);
+}
