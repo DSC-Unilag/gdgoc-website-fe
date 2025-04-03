@@ -86,9 +86,9 @@ function Hero() {
               <path
                 d="M18.1665 12L13.1665 17M18.1665 12L13.1665 7M18.1665 12L6.49984 12"
                 stroke="#1E1E1E"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </a>

@@ -1,8 +1,11 @@
+import useMediaQuery from '../../../hooks/useMediaQuery';
 import WWAStyles from './who-we-are.module.css';
 import WhoWeAreImage from '../../../assets/home/who-we-are.jpg';
 import { Link } from '@tanstack/react-router';
 
 function WhoWeAre() {
+  const isLargeMobile = useMediaQuery('(min-width: 350px)');
+
   return (
     <section
       className={`p_cont_auto w-full pt-[58px] md:pt-[100px] pb-[67.22px] md:pb-[143px] ${WWAStyles.wwa_section} text-black-02`}
@@ -63,7 +66,7 @@ function WhoWeAre() {
         to="/about"
       >
         <span className="text-white text-base font-medium leading-none">
-          Read more about GDGoC Unilag
+          Read more {isLargeMobile ? ' about GDGoC Unilag' : ''}
         </span>
         <svg
           className="w-5 h-5 md:w-6 md:h-6"

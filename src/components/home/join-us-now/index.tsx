@@ -81,9 +81,9 @@ function JoinUsNow() {
               <path
                 d="M17.6665 12L12.6665 17M17.6665 12L12.6665 7M17.6665 12L5.99984 12"
                 stroke="#1E1E1E"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </a>

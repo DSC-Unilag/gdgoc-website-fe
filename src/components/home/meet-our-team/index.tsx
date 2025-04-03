@@ -48,9 +48,9 @@ function MeetOurTeam() {
             <path
               d="M27.71 18.9801L20.06 26.6301M27.71 18.9801L20.06 11.3301M27.71 18.9801L9.85996 18.9801"
               stroke="#1E1E1E"
-              stroke-width="3.06"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3.06"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </Link>
