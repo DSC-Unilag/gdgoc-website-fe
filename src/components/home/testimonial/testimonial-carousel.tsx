@@ -36,7 +36,7 @@ const TestimonialCarousel: React.FC<PropType> = (props) => {
           <div className="h-full flex items-center touch-pan-y touch-pinch-zoom">
             {slides.map((testimonial, index) => (
               <div
-                className={`"transform-gpu translate-y-0 translate-x-0 translate-z-0 min-w-0 grow-0 shrink-0 ml-5 md:ml-[4.51%] bg-black flex flex-col justify-between rounded-[8px] overflow-hidden transition-[width,opacity] ease-in-out delay-100 duration-100 ${selectedIndex === index ? 'w-[285px] sm:w-[391px]' : 'w-[185px] sm:w-[297px] opacity-50'}`}
+                className={`translate_3d_0 min-w-0 grow-0 shrink-0 ml-5 md:ml-[4.51%] bg-black flex flex-col justify-between rounded-[8px] overflow-hidden transition-[width,opacity] ease-in-out delay-100 duration-100 ${selectedIndex === index ? 'w-[285px] sm:w-[391px]' : 'w-[185px] sm:w-[297px] opacity-50'}`}
                 key={testimonial.id}
               >
                 <img src={testimonial.pfp} alt={testimonial.name} />

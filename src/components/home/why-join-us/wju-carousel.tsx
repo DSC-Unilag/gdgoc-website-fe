@@ -28,7 +28,7 @@ const WhyJoinUsCarousel: React.FC<PropType> = (props) => {
             <div className="flex items-stretch touch-pan-y touch-pinch-zoom">
               {slides.map((slide) => (
                 <div
-                  className="transform-gpu translate-y-0 translate-x-0 translate-z-0 min-w-0 grow-0 shrink-0 basis-[500px] ml-6 nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] px-[55px] py-[123px] rounded-[20px] flex flex-col gap-y-3 justify-center"
+                  className="translate_3d_0 min-w-0 grow-0 shrink-0 basis-[500px] ml-6 nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] px-[55px] py-[123px] rounded-[20px] flex flex-col gap-y-3 justify-center"
                   key={slide.id}
                 >
                   <h3 className="font-bold">{slide.title}</h3>
