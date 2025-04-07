@@ -30,25 +30,25 @@ function Programs() {
           className={`p_cont_auto text-center font-medium ${ProgramsStyles.programs_title} text-black-02 flex justify-center items-center gap-x-[2.991%]`}
         >
           <button
-            className={`trasition-[border] ease-in-out duration-300 ${showPast ? 'text-[#7E8286]' : 'text-black'}`}
+            className={`transition-[color] ease-in-out duration-300 ${showPast ? 'text-[#7E8286]' : 'text-black'}`}
             onClick={() => {
               setShowPast(false);
             }}
           >
             Upcoming Program
             <hr
-              className={`mx-auto mt-3 w-11/12 rounded-full trasition-[border] ease-in-out duration-300 ${showPast ? 'border-0 border-transparent' : 'border-6 border-black'}`}
+              className={`mx-auto mt-3 w-11/12 rounded-full transition-[border] ease-in-out duration-300 ${showPast ? 'border-0 border-transparent' : 'border-6 border-black'}`}
             />
           </button>
           <button
-            className={`trasition-[border] ease-in-out duration-300 ${!showPast ? 'text-[#7E8286]' : 'text-black'}`}
+            className={`transition-[color] ease-in-out duration-300 ${!showPast ? 'text-[#7E8286]' : 'text-black'}`}
             onClick={() => {
               setShowPast(true);
             }}
           >
             Past Program
             <hr
-              className={`mx-auto mt-3 w-11/12 rounded-full trasition-[border] ease-in-out duration-300 ${!showPast ? 'border-0 border-transparent' : 'border-6 border-black'}`}
+              className={`mx-auto mt-3 w-11/12 rounded-full transition-[border] ease-in-out duration-300 ${!showPast ? 'border-0 border-transparent' : 'border-6 border-black'}`}
             />
           </button>
         </h2>
