@@ -18,13 +18,11 @@ function MeetOurTeam() {
         src={MOTFloatingAsset}
         alt=""
       />
-      <h2
-        className={`px-[5.3333%] md:px-[6.9444%] font-bold text-black-02 text-center ${MOTStyles.mot_title}`}
-      >
+      <h2 className={`p_cont_auto font-bold text-black-02 text-center ${MOTStyles.mot_title}`}>
         Meet Our Team
       </h2>
       <MOTCarousel slides={MOTSlides} options={OPTIONS} />
-      <div className="relative w-full px-[5.3333%] md:px-[6.9444%]">
+      <div className="relative w-full p_cont_auto">
         <Link
           className="mx-auto max-w-[335px] md:max-w-[459px] w-full py-3 md:py-6 bg-black-02 flex justify-center items-center gap-x-[4.77%] md:gap-x-[11.98%] rounded-[25px] md:rounded-[38.25px] transition-[opacity] ease-in-out duration-300 hover:opacity-70"
           to="/teams"

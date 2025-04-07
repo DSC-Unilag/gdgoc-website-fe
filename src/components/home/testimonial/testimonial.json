@@ -1,0 +1,58 @@
+[
+  {
+    "id": "testimonial-0",
+    "name": "Alice Johnson",
+    "position": "Software Engineer at TechCorp",
+    "pfp": "/testimonial-pfps/female-1.jpg",
+    "body": "GDGoC provided an amazing learning experience. The mentorship and resources helped me land my dream job!"
+  },
+  {
+    "id": "testimonial-1",
+    "name": "Michael Smith",
+    "position": "Backend Developer",
+    "pfp": "/testimonial-pfps/male-1.jpg",
+    "body": "The community at GDGoC is outstanding! I improved my coding skills significantly and made great connections."
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Samantha Lee",
+    "position": "Product Designer at CreativeStudio",
+    "pfp": "/testimonial-pfps/female-2.jpg",
+    "body": "I loved the hands-on projects and support from GDGoC. It boosted my confidence and prepared me for real-world challenges."
+  },
+  {
+    "id": "testimonial-3",
+    "name": "David Brown",
+    "position": "",
+    "pfp": "/testimonial-pfps/male-2.jpg",
+    "body": "GDGoC was a game-changer for me. The guidance and structured learning helped me level up my skills."
+  },
+  {
+    "id": "testimonial-4",
+    "name": "Jessica Williams",
+    "position": "AI Researcher",
+    "pfp": "/testimonial-pfps/female-3.jpg",
+    "body": "The exposure and opportunities from GDGoC were incredible! I discovered my passion for AI through this program."
+  },
+  {
+    "id": "testimonial-5",
+    "name": "James Carter",
+    "position": "Full-Stack Developer",
+    "pfp": "/testimonial-pfps/male-3.jpg",
+    "body": "I started with minimal experience, but GDGoC gave me the tools and confidence to build real applications."
+  },
+  {
+    "id": "testimonial-6",
+    "name": "Emily Davis",
+    "position": "Data Analyst at InsightTech",
+    "pfp": "/testimonial-pfps/female-4.jpg",
+    "body": "The structured curriculum and supportive mentors made my learning journey smooth and effective."
+  },
+  {
+    "id": "testimonial-7",
+    "name": "Robert Wilson",
+    "position": "CTO at DevInnovate",
+    "pfp": "/testimonial-pfps/male-4.jpg",
+    "body": "GDGoC fosters an environment of growth and innovation. It's a must-join for any aspiring tech professional."
+  }
+]

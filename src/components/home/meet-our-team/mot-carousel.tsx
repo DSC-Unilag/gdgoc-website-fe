@@ -71,7 +71,7 @@ const MOTCarousel: React.FC<PropType> = (props) => {
     const containerNode = emblaApi.containerNode();
     if (!containerNode) return;
 
-    containerNode.addEventListener('wheel', swipeHandler);
+    containerNode.addEventListener('wheel', swipeHandler, { passive: true });
 
     return () => {
       containerNode.removeEventListener('wheel', swipeHandler);

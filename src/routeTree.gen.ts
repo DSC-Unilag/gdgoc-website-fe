@@ -12,6 +12,8 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as TeamsImport } from './routes/teams'
+import { Route as FaqsImport } from './routes/faqs'
+import { Route as EventsImport } from './routes/events'
 import { Route as AboutImport } from './routes/about'
 import { Route as IndexImport } from './routes/index'
 
@@ -20,6 +22,18 @@ import { Route as IndexImport } from './routes/index'
 const TeamsRoute = TeamsImport.update({
   id: '/teams',
   path: '/teams',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const FaqsRoute = FaqsImport.update({
+  id: '/faqs',
+  path: '/faqs',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const EventsRoute = EventsImport.update({
+  id: '/events',
+  path: '/events',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -53,6 +67,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutImport
       parentRoute: typeof rootRoute
     }
+    '/events': {
+      id: '/events'
+      path: '/events'
+      fullPath: '/events'
+      preLoaderRoute: typeof EventsImport
+      parentRoute: typeof rootRoute
+    }
+    '/faqs': {
+      id: '/faqs'
+      path: '/faqs'
+      fullPath: '/faqs'
+      preLoaderRoute: typeof FaqsImport
+      parentRoute: typeof rootRoute
+    }
     '/teams': {
       id: '/teams'
       path: '/teams'
@@ -68,12 +96,16 @@ declare module '@tanstack/react-router' {
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/faqs': typeof FaqsRoute
   '/teams': typeof TeamsRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/faqs': typeof FaqsRoute
   '/teams': typeof TeamsRoute
 }
 
@@ -81,27 +113,33 @@ export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/faqs': typeof FaqsRoute
   '/teams': typeof TeamsRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/teams'
+  fullPaths: '/' | '/about' | '/events' | '/faqs' | '/teams'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/teams'
-  id: '__root__' | '/' | '/about' | '/teams'
+  to: '/' | '/about' | '/events' | '/faqs' | '/teams'
+  id: '__root__' | '/' | '/about' | '/events' | '/faqs' | '/teams'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  EventsRoute: typeof EventsRoute
+  FaqsRoute: typeof FaqsRoute
   TeamsRoute: typeof TeamsRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  EventsRoute: EventsRoute,
+  FaqsRoute: FaqsRoute,
   TeamsRoute: TeamsRoute,
 }
 
@@ -117,6 +155,8 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/about",
+        "/events",
+        "/faqs",
         "/teams"
       ]
     },
@@ -125,6 +165,12 @@ export const routeTree = rootRoute
     },
     "/about": {
       "filePath": "about.tsx"
+    },
+    "/events": {
+      "filePath": "events.tsx"
+    },
+    "/faqs": {
+      "filePath": "faqs.tsx"
     },
     "/teams": {
       "filePath": "teams.tsx"

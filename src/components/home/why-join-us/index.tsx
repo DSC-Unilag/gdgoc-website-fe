@@ -12,7 +12,7 @@ function WhyJoinUs() {
 
   return (
     <section className="py-10 md:py-[60px] bg-[#0D0D0D] flex flex-col gap-y-8 text-off-white">
-      <h2 className={`px-[5.3333%] md:px-[6.9444%] text-center font-bold ${WJUStyles.wju_title}`}>
+      <h2 className={`p_cont_auto text-center font-bold ${WJUStyles.wju_title}`}>
         ⭐️Why you should join GDGoC⭐
       </h2>
       <WhyJoinUsCarousel slides={WJUCarouselSlides} options={OPTIONS} />

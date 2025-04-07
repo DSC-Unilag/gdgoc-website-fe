@@ -56,6 +56,9 @@ html {
 button {
   cursor: pointer;
 }
+a.btn_cta {
+  @apply transition-[opacity] ease-in-out duration-300 hover:opacity-70;
+}
 
 /* default container padding on the x-axis */
 .p_cont_auto {
@@ -67,4 +70,8 @@ button {
     padding-left: 6.9444%;
     padding-right: 6.9444%;
   }
+}
+
+.translate_3d_0 {
+  @apply transform-gpu translate-y-0 translate-x-0 translate-z-0;
 }
