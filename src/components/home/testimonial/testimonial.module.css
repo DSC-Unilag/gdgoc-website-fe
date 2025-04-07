@@ -1,0 +1,23 @@
+.testimonial_title {
+  font-size: clamp(20px, calc(20px + 28 * ((100vw - 375px) / 1065)), 48px);
+}
+
+.floating_asset__one {
+  /* clip-path: inset(0px 4px 0px 0px); */
+  object-fit: cover;
+  object-position: calc(100% + 6px) center;
+}
+
+.floating_asset__two {
+  /* clip-path: inset(0px 4px 0px 0px); */
+  object-fit: cover;
+  object-position: calc(100% + 6px) center;
+}
+
+/* carousel styles */
+.testimonial_container h3 {
+  font-size: clamp(18px, calc(18px + 22 * ((100vw - 375px) / 1065)), 40px);
+}
+.testimonial_container p {
+  font-size: clamp(16px, calc(16px + 9 * ((100vw - 375px) / 1065)), 25px);
+}

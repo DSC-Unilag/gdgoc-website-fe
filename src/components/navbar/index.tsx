@@ -19,7 +19,6 @@ function NavBar() {
         <button
           className="absolute top-[22px] left-[23px] w-6 h-6 md:hidden"
           onClick={() => {
-            console.log(showNavDD);
             setShowNavDD(false);
           }}
         >
@@ -50,7 +49,7 @@ function NavBar() {
           <Link
             to="/about"
             className="transition-[color] ease-in-out duration-300"
-            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+            activeProps={{ className: 'text-black-02 md:text-green-500 font-medium' }}
           >
             About
           </Link>
@@ -102,7 +101,7 @@ function NavBar() {
                 <Link
                   to="/"
                   className="transition-[color] ease-in-out duration-300"
-                  activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+                  activeProps={{ className: 'text-black-02 md:text-green-500 font-medium' }}
                 >
                   Workshop
                 </Link>
@@ -111,7 +110,7 @@ function NavBar() {
                 <Link
                   to="/"
                   className="transition-[color] ease-in-out duration-300"
-                  activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+                  activeProps={{ className: 'text-black-02 md:text-red-500 font-medium' }}
                 >
                   Open Hack Week
                 </Link>
@@ -123,16 +122,16 @@ function NavBar() {
           <Link
             to="/teams"
             className="transition-[color] ease-in-out duration-300"
-            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+            activeProps={{ className: 'text-black-02 md:text-red-500 font-medium' }}
           >
             Teams
           </Link>
         </li>
         <li>
           <Link
-            to="/"
+            to="/faqs"
             className="transition-[color] ease-in-out duration-300"
-            activeProps={{ className: 'text-black-02 md:text-blue-500 font-medium' }}
+            activeProps={{ className: 'text-black-02 md:text-yellow-500 font-medium' }}
           >
             FAQs
           </Link>

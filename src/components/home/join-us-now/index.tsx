@@ -21,7 +21,7 @@ function JoinUsNow() {
   return (
     <section className="pb-[67px] md:pb-[143px]">
       <h2
-        className={`block md:hidden mb-8 px-[5.3333%] md:px-[6.9444%] text-center text-blue-500 font-bold leading-loose ${JUNStyles.jun_title}`}
+        className={`block md:hidden mb-8 p_cont_auto text-center text-blue-500 font-bold leading-loose ${JUNStyles.jun_title}`}
       >
         Join Us now
       </h2>
@@ -32,7 +32,7 @@ function JoinUsNow() {
           src={JUNBannerLG}
           alt=""
         />
-        <div className="px-[5.3333%] md:px-0 flex flex-col items-center gap-y-8">
+        <div className="p_cont_auto md:px-0 flex flex-col items-center gap-y-8">
           <h2
             className={`hidden md:block text-center text-blue-500 font-bold leading-loose ${JUNStyles.jun_title}`}
           >

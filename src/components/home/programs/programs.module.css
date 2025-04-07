@@ -1,0 +1,52 @@
+.programs_title {
+  font-size: clamp(24px, calc(24px + 14.75 * ((100vw - 375px) / 1065)), 38.75px);
+}
+
+.programs_slide {
+  --blue-100: #d9e7fd;
+  --blue-500: #4285f4;
+  --blue-600: #356ac3;
+  --yellow-100: #feeed3;
+  --yellow-500: #faab21;
+  --green-100: #d6eede;
+  --green-500: #31a858;
+  --green-600: #278646;
+  --red-100: #fbd9d7;
+  --red-500: #eb4335;
+}
+
+/* meet our team slide pfp event level */
+.programs_slide:nth-child(4n) .event_level {
+  background-color: var(--blue-100);
+  color: var(--blue-500);
+}
+.programs_slide:nth-child(4n + 1) .event_level {
+  background-color: var(--yellow-100);
+  color: var(--yellow-500);
+}
+.programs_slide:nth-child(4n + 2) .event_level {
+  background-color: var(--green-100);
+  color: var(--green-500);
+}
+.programs_slide:nth-child(4n + 3) .event_level {
+  background-color: var(--red-100);
+  color: var(--red-500);
+}
+
+/* meet our team slide linkedIn link */
+.programs_slide:nth-child(4n) .rsvp_btn {
+  background-color: var(--blue-600);
+  color: var(--blue-100);
+}
+.programs_slide:nth-child(4n + 1) .rsvp_btn {
+  background-color: var(--yellow-500);
+  color: var(--yellow-100);
+}
+.programs_slide:nth-child(4n + 2) .rsvp_btn {
+  background-color: var(--green-600);
+  color: var(--green-100);
+}
+.programs_slide:nth-child(4n + 3) .rsvp_btn {
+  background-color: var(--red-500);
+  color: var(--red-100);
+}

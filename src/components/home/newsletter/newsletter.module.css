@@ -1,0 +1,3 @@
+.newsletter_content h2 {
+  font-size: clamp(24px, calc(24px + 16 * ((100vw - 375px) / 1065)), 40px);
+}

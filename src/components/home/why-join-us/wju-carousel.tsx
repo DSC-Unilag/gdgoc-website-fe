@@ -18,17 +18,17 @@ const WhyJoinUsCarousel: React.FC<PropType> = (props) => {
   const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =
     usePrevNextButtons(emblaApi);
 
-  const isDesktop = useMediaQuery('(min-width: 640px)');
+  const isMidScreen = useMediaQuery('(min-width: 640px)');
 
   return (
     <div className={`${WJUStyles.wju_container}`}>
-      {isDesktop ? (
+      {isMidScreen ? (
         <div>
           <div className="w-full overflow-hidden" ref={emblaRef}>
             <div className="flex items-stretch touch-pan-y touch-pinch-zoom">
               {slides.map((slide) => (
                 <div
-                  className="transform-gpu translate-y-0 translate-x-0 translate-z-0 min-w-0 grow-0 shrink-0 basis-[500px] ml-6 nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] px-[55px] py-[123px] rounded-[20px] flex flex-col gap-y-3 justify-center"
+                  className="translate_3d_0 min-w-0 grow-0 shrink-0 basis-[500px] ml-6 nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] px-[55px] py-[123px] rounded-[20px] flex flex-col gap-y-3 justify-center"
                   key={slide.id}
                 >
                   <h3 className="font-bold">{slide.title}</h3>
@@ -38,16 +38,16 @@ const WhyJoinUsCarousel: React.FC<PropType> = (props) => {
             </div>
           </div>
 
-          <div className="w-full mt-8 px-[5.3333%] md:px-[6.9444%] flex justify-center gap-x-6">
+          <div className="w-full mt-8 p_cont_auto flex justify-center gap-x-6">
             <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
             <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
           </div>
         </div>
       ) : (
-        <div className={`px-[5.3333%] flex flex-col gap-y-6 ${WJUStyles.wju_slides}`}>
+        <div className={`p_cont_auto flex flex-col items-center gap-y-6`}>
           {slides.map((slide) => (
             <div
-              className="nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] p-6 rounded-[20px]"
+              className="max-w-[400px] w-full nth-1:bg-[#4285f4] nth-2:bg-[#EA4335] nth-3:bg-[#0F9D58] nth-4:bg-[#FBBC04] p-6 rounded-[20px]"
               key={slide.id}
             >
               <h3 className="font-bold mb-5">{slide.title}</h3>
