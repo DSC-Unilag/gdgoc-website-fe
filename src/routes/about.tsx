@@ -13,17 +13,17 @@ function AboutPage() {
           {/* Decorative Elements */}
           <img
             src="/images/image4.png"
-            className="absolute top-0 right-0 w-20 h-20 hidden md:block"
+            className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20"
             alt=""
           />
           <img
             src="/images/image5.png"
-            className="absolute top-0 left-0 w-20 h-20 hidden md:block"
+            className="absolute top-0 left-0 w-16 h-16 md:w-20 md:h-20"
             alt=""
           />
           <img
             src="/images/image7.png"
-            className="absolute bottom-0 right-0 w-40 h-40 hidden md:block"
+            className="absolute bottom-0 right-0 w-36 h-36 md:w-40 md:h-40"
             alt=""
           />
 
@@ -94,7 +94,7 @@ function AboutPage() {
         <img
           src="/images/assets/vector-blocks.png"
           alt=""
-          className="transform -translate-y-1/2 w-16 md:w-auto"
+          className="hidden md:block transform -translate-y-1/2 w-16 md:w-auto"
         />
       </section>
     </div>
