@@ -58,7 +58,7 @@ function AboutPage() {
           {/* Text Content */}
           <div className="py-8 md:py-20 px-4 md:px-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Who we are</h2>
-            <p className="text-[#4b4b4b] text-md md:text-md leading-relaxed">
+            <p className="text-[#4b4b4b] text-md md:text-md leading-relaxed text-justify">
               We are a community of developers and tech enthusiasts who love learning, building, and
               innovating. At <b>GDGOC Unilag</b>, you'll find endless opportunities to grow—whether
               it's sharpening your skills, staying updated on the latest tech trends, or networking
