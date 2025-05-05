@@ -84,8 +84,11 @@ function AboutPage() {
       </section>
 
       {/* Join Community Section */}
-      <section className="py-8 md:py-16 flex flex-col items-center relative" id="join-community">
-        <div className="max-w-[90%] w-full mx-auto bg-[#31a858] text-white rounded-lg py-12 md:py-28 px-8 md:px-20 flex flex-row justify-between items-center gap-8">
+      <section
+        className="py-8 md:py-16 flex flex-col items-center md:items-start relative"
+        id="join-community"
+      >
+        <div className="max-w-[90%] w-full mx-auto bg-[#31a858] text-white rounded-lg py-12 md:py-28 px-8 md:px-20 flex flex-row justify-between items-center gap-8 relative z-10">
           <h3 className="text-2xl md:text-4xl font-bold">Join Our Community</h3>
           <button className="bg-[#0a2212] text-white py-4 md:py-8 px-6 md:px-8 rounded text-base md:text-xl font-medium">
             Become a member
@@ -94,7 +97,7 @@ function AboutPage() {
         <img
           src="/images/assets/vector-blocks.png"
           alt=""
-          className="hidden md:block transform -translate-y-1/2 w-16 md:w-auto"
+          className="hidden md:block absolute left-0 bottom-0 transform -translate-y-1/6 w-16 md:w-auto z-0"
         />
       </section>
     </div>
