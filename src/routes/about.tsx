@@ -60,23 +60,23 @@ function AboutPage() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Who we are</h2>
             <p className="text-[#4b4b4b] text-md md:text-md leading-relaxed">
               We are a community of developers and tech enthusiasts who love learning, building, and
-              innovating. At <b>GDGOC Unilag</b>, you’ll find endless opportunities to grow—whether
-              it’s sharpening your skills, staying updated on the latest tech trends, or networking
+              innovating. At <b>GDGOC Unilag</b>, you'll find endless opportunities to grow—whether
+              it's sharpening your skills, staying updated on the latest tech trends, or networking
               with like-minded people and industry pros.
               <br />
               <br />
               Learning tech alone can be frustrating—endless resources, zero guidance, and moments
-              when quitting feels like the only option. We get it. That’s why we exist. Here, you’ll
+              when quitting feels like the only option. We get it. That's why we exist. Here, you'll
               connect with others who share your passion, making the journey less overwhelming and
               way more fun.
               <br />
               <br />
               From workshops and coding challenges to hackathons and speaker sessions with industry
-              leaders, there’s always something happening. Whether you’re a seasoned developer or
+              leaders, there's always something happening. Whether you're a seasoned developer or
               just starting, GDGOC Unilag is the place to explore, experiment, and excel.
               <br />
               <br />
-              Tech moves fast, but you don’t have to navigate it alone. Join us, and let’s grow
+              Tech moves fast, but you don't have to navigate it alone. Join us, and let's grow
               together. 🚀
             </p>
           </div>
@@ -85,7 +85,7 @@ function AboutPage() {
 
       {/* Join Community Section */}
       <section className="py-8 md:py-16 flex flex-col items-center relative" id="join-community">
-        <div className="max-w-[90%] w-full mx-auto bg-[#31a858] text-white rounded-lg py-12 md:py-28 px-8 md:px-20 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="max-w-[90%] w-full mx-auto bg-[#31a858] text-white rounded-lg py-12 md:py-28 px-8 md:px-20 flex flex-row justify-between items-center gap-8">
           <h3 className="text-2xl md:text-4xl font-bold">Join Our Community</h3>
           <button className="bg-[#0a2212] text-white py-4 md:py-8 px-6 md:px-8 rounded text-base md:text-xl font-medium">
             Become a member
