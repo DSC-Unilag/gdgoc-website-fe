@@ -58,11 +58,26 @@ function AboutPage() {
           {/* Text Content */}
           <div className="py-8 md:py-20 px-4 md:px-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Who we are</h2>
-            <p className="text-[#4b4b4b] text-xl md:text-3xl leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget turpis molestie,
-              accumsan augue vel, convallis ligula. Mauris at nulla in erat imperdiet tempus. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Nam eget turpis molestie, accumsan
-              augue vel, convallis ligula. Mauris at nulla in erat imperdiet tempus...
+            <p className="text-[#4b4b4b] text-md md:text-md leading-relaxed">
+              We are a community of developers and tech enthusiasts who love learning, building, and
+              innovating. At <b>GDGOC Unilag</b>, you’ll find endless opportunities to grow—whether
+              it’s sharpening your skills, staying updated on the latest tech trends, or networking
+              with like-minded people and industry pros.
+              <br />
+              <br />
+              Learning tech alone can be frustrating—endless resources, zero guidance, and moments
+              when quitting feels like the only option. We get it. That’s why we exist. Here, you’ll
+              connect with others who share your passion, making the journey less overwhelming and
+              way more fun.
+              <br />
+              <br />
+              From workshops and coding challenges to hackathons and speaker sessions with industry
+              leaders, there’s always something happening. Whether you’re a seasoned developer or
+              just starting, GDGOC Unilag is the place to explore, experiment, and excel.
+              <br />
+              <br />
+              Tech moves fast, but you don’t have to navigate it alone. Join us, and let’s grow
+              together. 🚀
             </p>
           </div>
         </div>
